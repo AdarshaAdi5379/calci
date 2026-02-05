@@ -25,17 +25,47 @@
 
         td{
             border: 1px solid black;
+            border-radius:8px;
             width:50px;
             height:50px;
+            font-size: 20px;
+            cursor: pointer;
+            background-color: lightslategrey;
+
+        }
+        .oc{
+            border: 4px solid black;
+            border-radius: 22px;
+            width:220px;
+            height:300px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        tr{
+            height:50px;
+        }
+
+        .input{
+            border: 2px solid black;
+            border-radius: 8px;
+            width:200px;
+            height:20px;
+            text-align: right;
+            font-size: 20px;
+            background-color: lightgrey;
         }
     </style>
 </head>
 <body>
-    <h5>Calculator</h5>
+    <h1>Calculator</h1>
     <br>
 
-
+<div class="oc">
     <div class="Calculator">
+       <input type="text" class="input" placeholder="Enter">
+
     
 
      <table>
@@ -77,5 +107,6 @@
      </table>
     
     <div>
+</div>    
 </body>
 </html>
